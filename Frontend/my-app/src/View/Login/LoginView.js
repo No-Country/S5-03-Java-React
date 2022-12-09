@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import "./LoginView.css";
 import { Link} from "react-router-dom";
@@ -168,4 +168,6 @@ export const LoginView = () => {
     </div>
   );
   
+
 };
+

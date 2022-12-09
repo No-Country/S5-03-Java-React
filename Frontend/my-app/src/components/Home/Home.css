@@ -5,6 +5,8 @@
     position: relative;
     margin: 0px auto; 
     background-image: url("../../../public/assets/Rectangle\ 40.svg");
+  
+ 
     
     
 }
@@ -44,6 +46,13 @@
     justify-content: center;
     
 
+}
+
+
+.botonPrubea{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 

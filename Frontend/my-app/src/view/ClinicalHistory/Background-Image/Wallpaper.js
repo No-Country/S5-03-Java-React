@@ -4,6 +4,6 @@ import React from 'react'
 
 export default function Wallpaper() {
   return (
-	<div className="absolute bg-cover=true"><img src={Background} alt="background" bg-cover="true"></img></div>
+	<div className="bg-cover=true"><img src={Background} alt="background" bg-cover="true"></img></div>
   )
 }

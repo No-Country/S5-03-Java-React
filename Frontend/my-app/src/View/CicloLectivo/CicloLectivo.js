@@ -32,15 +32,15 @@ const CicloLectivo = () => {
             <h3>Mis compañeros</h3>
             <div className="grid grid-cols-2 gap-2 " >
               <img
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1670184224/Rectangle_602_qmoag4.png"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1670199278/Rectangle_597_haklpz.png"
                 alt="imagen de carga de video"
               />
               <img
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1670184219/Rectangle_601_q6p76i.png"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1670199463/Rectangle_600-1_sf2ztu.png"
                 alt="imagen de carga de video"
               />
               <img
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1670184212/Rectangle_600_homgbb.png"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1670199529/Rectangle_598_o2fcrs.png"
                 alt="imagen de carga de video"
               />
               <img

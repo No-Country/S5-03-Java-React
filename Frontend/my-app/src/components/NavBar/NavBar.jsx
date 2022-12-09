@@ -3,6 +3,10 @@ import '../NavBar/NavBar.css'
 import { Link } from 'react-router-dom';
 
 export default function NavBar() {
+
+  
+  
+
   return (
     <>
 
@@ -26,7 +30,7 @@ export default function NavBar() {
                   Destacados
                 </li>
               </Link>
-			  <Link to='/cicloLectivo' className='liNav'>
+              <Link to='/cicloLectivo' className='liNav'>
                 <li >
                   Educación
                 </li>
@@ -42,10 +46,11 @@ export default function NavBar() {
                 </li>
               </Link>
               <Link to='/login' className='liNav'>
-                <li >
-                  Login
-                </li>
+                  <li>
+                    Login
+                  </li>
               </Link>
+              
             </ul>
           </div>
         </div>
