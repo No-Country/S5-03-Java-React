@@ -39,6 +39,13 @@
     transform: translate(-50%,50%);
 }
 
+.jCCenter{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
 
 @media  (max-width:400px){
     

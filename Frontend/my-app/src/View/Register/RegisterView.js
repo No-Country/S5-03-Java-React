@@ -123,12 +123,13 @@ export const RegisterView = () => {
             </label>
             <input
               className="shadow appearance-none border b rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-              id="username"
-              type="text"
+              id="password"
+              type="password"
+<<<<<<<<< Temporary merge branch 1
+              placeholder="password"
+=========
               placeholder="Nombre de usuario"
-              required
-              value={username}
-              onChange={onChangeUsername}
+>>>>>>>>> Temporary merge branch 2
             />
           </div>
           <div className="mb-6">
@@ -140,12 +141,14 @@ export const RegisterView = () => {
             </label>
             <input
               className="shadow appearance-none border b rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
-              id="email"
-              type="text"
+              id="password"
+              type="password"
+<<<<<<<<< Temporary merge branch 1
+              placeholder="password"
+=========
               placeholder="Mail"
-              required
-              value={email}
-              onChange={onChangeEmail}
+              onChange={handleChange}
+>>>>>>>>> Temporary merge branch 2
             />
           </div>
           <div className="mb-6">
@@ -160,9 +163,8 @@ export const RegisterView = () => {
               id="password"
               type="password"
               placeholder="Contraseña"
-              value={password}
-              onChange={onChangePassword} 
-              required
+              onChange={handleChange}
+>>>>>>>>> Temporary merge branch 2
             />
           </div>
 

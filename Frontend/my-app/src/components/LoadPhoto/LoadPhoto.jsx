@@ -22,27 +22,28 @@ export default function LoadPhoto() {
                     <h6 className='vistaPrevia'>Vista Previa</h6>
                 </div>
                 <div className='columnDivMoment'>
-                    <div className='contornos widthTitle'>
-                        <div className="inlineBlock">
-                            <label className=''>Título</label>
-                            <input type="text" className='borderInput' />
+                    <div className=' widthTitle'>
+                        <div >
+                            <label className='fontStyleMomentos'>Título</label>
+                            <input type="text" className='borderInputOne' />
                         </div>
-                        <div className="inlineBlock">
-                            <label >Descripción</label>
-                            <textarea className="borderInput" style={{ height: "100px" }} />
+                        <div >
+                            <label className="fontStyleMomentos">Descripción</label>
+                            <textarea className="borderInputThree" style={{ height: "100px" }} />
                         </div>
                     </div>  
                     <div className='contornosImg' >
-                        <div className=' heightImg'>
-                            <input type="file" accept='image/*' multiple onChange={e => changeImage(e)} />
-                            <div className="borderInput">
-                                <img src={ImagePrevious} alt="foto cargada" />
+                        
+                           <div className="borderInputTwo heightImg"> 
+                                 
+                                <img src={ImagePrevious} alt="Cargar" />
+                                <input className='disabled' type="file" accept='image/*' multiple onChange={e => changeImage(e)} />
                             </div>
-                            <p className='addImg'>Subir imagen</p>
-                        </div>
+                            
+                        
                         <div className='padButton'>
-                            <button className='marButtonCancel'>Cancelar</button>
-                            <button className='marButtonPublic'>Publicar</button>
+                            <button className='marButtonCancel fontStyleMomentosButton'>Cancelar</button>
+                            <button className='marButtonPublic fontStyleMomentosButton'>Publicar</button>
                         </div>
                     </div>
                 </div>

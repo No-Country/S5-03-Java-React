@@ -3,7 +3,7 @@
     overflow: hidden;
     margin: 0px auto; 
     background-image: url("../../../public/assets/Background.svg");
-    margin-bottom:50% ;
+    padding-bottom: 20%;
 }
 
 .titleLoad{
@@ -13,12 +13,11 @@
 }
 
 .divMomentos{
-    display: grid;
     justify-content: center;
 }
 
 .divCarga{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 1080px;
@@ -27,62 +26,58 @@
     color: white;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 10%;
+   
 }
 
 .vistaPrevia{
     padding-left: 50%;
-    
 }
 
-.borderInput{
-   
-    border: 1px solid black;
-    width: 60%;
-
-}
-.heightImg{
-    position: absolute;
-width: 640px;
-height: 450px;
-left: 620px;
-top: 468px;
+.columnDivMoment{
+    column-count: 2;
+    column-gap: 8%; 
 }
 
 .inlineBlock{
     display: flex;
     flex-direction: column;
-
-}
-.columnDivMoment{
-
-    column-count: 2;
-    column-gap: 20px;
-    
+    padding-top: 20px;   
 }
 
-.contornos{
-    padding-top: 10%;
-    padding-left: 30%;
-    
-    
+.borderInputOne{
+    border: 1px solid black;
+    width: 369px;
+    height: 36px;
 }
-
-.contornosImg{
-    padding-top: 13.5%;
-    padding-left: 30%;
-    
-    
+.borderInputThree{
+    border: 1px solid black;
+    width: 369px;
+    height: 60%; 
 }
 
 .widthTitle{
-    width: 150%;
+    height: 400px;
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.borderInputTwo{
+    border: 1px solid black;
+    width: 340px;
+    height: 250px;
+}
+
+.contornosImg{
+    padding-top: 8%;
+ 
 }
 
 .padButton{
     padding-top: 5%;
     padding-left: 25%;
-    
 }
+
 .marButtonCancel{
     margin-right: 20px;
     background-color: #e8edf1;
@@ -97,8 +92,16 @@ top: 468px;
     border-radius: 3px;
     width: 92px;
     height: 44px;
+    margin-top: 120px;
 }
-/*height: 150px;
-    padding-top: 50px ;
-    padding-left: 55px;
-    width: 80%;*/
+.fontStyleMomentos{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.fontStyleMomentosButton{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}

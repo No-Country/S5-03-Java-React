@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import "./LoginView.css";
 import { Link} from "react-router-dom";
@@ -86,19 +86,17 @@ export const LoginView = () => {
 
   return (
     <div className="login">
-      <div className="  w-full max-w-xs   ">
-        <form className=" bg-white shadow-md rounded-lg px-12 pt-6 pb-8 w-96 float-right mx-56 mt-20  " onSubmit={handleSubmit}>
+      <div className="  w-full max-w-xs float-right m-36  ">
+        <form className=" bg-white shadow-md rounded-lg px-12 pt-6 pb-8 w-96  " onSubmit={handleSubmit}>
           <h1 className="text-gray-800 text-center font-bold p-4 pb-8">
             Inicio de sesion
           </h1>
           <div className="mb-8">
-            <div class="flex justify-center items-center text-sm ">
-              <label className="mr-2  ">¿Eres nuevo usuario??</label>
-              <Link to="/register">
-                <a className=" cursor-pointer text-blue-500 transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
-                  Crear una cuenta
-                </a>
-              </Link>
+            <div class="flex justify-center items-center">
+              <label className="mr-2">¿Eres nuevo usuario?</label>
+              <Link to="/register"><a className=" cursor-pointer text-blue-500 transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
+                Crear una cuenta
+              </a></Link>
             </div>
           </div>
 
@@ -118,9 +116,9 @@ export const LoginView = () => {
             />
           </div>
           <div className="mb-6">
-            <div className="absolute ml-4 m-2">
-              {/* <FontAwesomeIcon icon={faKey} /> */}
-            </div>
+         <div className="absolute ml-4 m-2">
+         {/* <FontAwesomeIcon icon={faKey} /> */}
+         </div>
             <input
               className="shadow appearance-none border b rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               id="password"
@@ -167,5 +165,4 @@ export const LoginView = () => {
       />
     </div>
   );
-  
 };

@@ -1,4 +1,4 @@
-import {LoginView} from "./View/Login/LoginView";
+import { LoginView } from "./View/Login/LoginView";
 import { RegisterView } from "./View/Register/RegisterView";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ClinicalHistory from "./View/ClinicalHistory/ClinicalHistory";
@@ -30,6 +30,8 @@ function App() {
         <Footer />
       </BrowserRouter>
     </AuthProvider>
+    
+ 
     
   );
 }
