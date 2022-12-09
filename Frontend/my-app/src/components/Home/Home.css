@@ -80,7 +80,11 @@
         transform: translate(-50%,50%);
     }
     
-
+	.botonPrubea{
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+	}
     
    
 }

@@ -1,0 +1,18 @@
+.usuario {
+	display: flex;
+}
+
+.texto {
+	width: 600px;
+	margin-inline: inherit;
+	background-color: #f5f5f5;
+	border: 1px solid;
+	resize: none;
+	box-shadow: 3px 10px 10px #d3d3d3;
+}
+
+.boton {
+	background-color: #2EC5CE;
+	border-radius: 14px;
+	margin-right: 100px;
+}
