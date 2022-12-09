@@ -26,6 +26,11 @@ export default function NavBar() {
                   Destacados
                 </li>
               </Link>
+			  <Link to='/cicloLectivo' className='liNav'>
+                <li >
+                  Educación
+                </li>
+              </Link>
               <Link to='/clinicalHistory' className='liNav'>
                 <li >
                   Salud
